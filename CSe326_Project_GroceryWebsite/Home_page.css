@@ -1,0 +1,116 @@
+body{
+ font: sans-serif;
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+#container {
+ width: 1050px;
+ margin: 0 auto;
+}
+#header{
+ height: 100px;
+ padding: 10px 0;
+}
+#subhead{
+    
+    float: left;
+}
+h1 a{
+ font-size: 85px;
+ font-weight: 100;
+ color: lawngreen;
+ text-decoration: none;
+}
+#searchBox{
+ float: right;
+ background: #8E8D8A;
+ width: 400px;
+ height: 50px;
+ padding: 20px 20px 0 20px;
+ margin-top: 20px;
+}
+.text{
+ float: left;
+ width: 200px;
+ padding: 5px;
+ font-size: 15px;
+ color: #E36A0C;
+}
+.submit{
+ float: right;
+ padding: 5px;
+ font-weight: bold;
+ color:black;
+ background: #E98074;
+ font-size: 15px;
+ border: 1px solid black;
+}
+.clear{
+ clear: both;
+}
+#menu{
+ height: 70px;
+ background: #D8C3A5;
+ padding: 7px 0;
+}
+ul{
+ list-style: none;
+}
+#menu ul li{
+ float: left;
+ padding: 0 30px;
+ height: 30px;
+}
+#menu ul li:last-child{
+ border-right: none;
+}
+#menu ul li a{
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 17px;
+ color: black;
+ line-height: 30px;
+ transition: font-size 0.3s ease;
+}
+#menu ul li a:hover{
+ font-size: 20px;
+ font-weight: bold;
+ color: whitesmoke;
+}
+#introduction{
+ background:#8E8D8A ;
+ padding: 30px;
+ margin: 16px 0;
+}
+#introduction h3{
+ font-size: 45px;
+ color: #3E98074;
+ font-weight: normal;
+}
+.sidebar{
+ background: white;
+ height: 500px;
+ width: 450px;
+ border: 1px solid black;
+ border-radius: 20px;
+ padding: 10px 30px;
+}
+.sidebar h3{
+ color: darkgoldenrod;
+ font-size: 30px;
+}
+.sidebar ul{
+ padding-top: 8px;
+}
+#leftsidebar ul li{
+ padding: 4px 0 4px 10px;
+
+}
+#rightsidebar ul li{
+ padding: 17px 0 17px 70px;
+}
+
+
+

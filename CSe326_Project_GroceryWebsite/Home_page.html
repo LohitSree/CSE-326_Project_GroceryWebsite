@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .sidebar ul li a{
+ text-decoration: none;
+ font-size: 20px;
+ color: #5d12e7;
+ transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a.activ{
+ text-decoration: none;
+ color: #B314DB;
+ font-size: 23px;
+ font-weight: bold;
+}
+#leftsidebar{
+ float: left;
+}
+#rightsidebar{
+ float: right;
+}
+
+.foot ul li a:hover{
+ font-size: 20px;
+ color: #B314DB;
+ transition: font-size 0.3s ease;
+    font-weight: bold;
+}
+.foot ul li a{
+ text-decoration: none;
+ padding: 0px 10px 30px 0px;
+ color: #5d12e7;
+}
+    .overlay {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.9);
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height:450px){
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+    
+    
+    </style>
+ <head>
+ <title>Omni Basket</title>
+ <link rel="stylesheet" href="Home_page.css">
+ </head>
+
+ <body style="background-color: #EAE7DC" >
+     
+     <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class=
+  "closebtn"
+
+  onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="About_us.html">About Us</a>
+    <a href="index.html">Services</a>
+    <a href="Contact_us.html">Contact Us</a>
+    
+  </div>
+</div>
+ <div id="container">
+ <div id="header">
+ <div id="subhead">
+         
+     <h1><a href="Omnibasket.html"><img src="logo.jfif" width="80" height="80">Omni Basket</a></h1>
+
+</div>
+  <div>
+ <div id="searchBox">
+  <form method="get">
+  <input type="text" class="text">
+  <input type="submit" value="Search" class="submit">
+  </form>
+ </div>
+ <div class="clear">
+
+ </div>
+ </div>
+ <div id="menu">
+ <ul>
+ <li><a href="#"
+class="active"> <span style="font-size:30px;cursor:
+pointer"
+
+onclick="openNav()">&#9776;<small> More</small></span>
+
+<script>
+function openNav() {
+ document.getElementById("myNav")
+ .style.width = "100%";
+}
+
+function closeNav() {
+ document.getElementById("myNav")
+ .style.width = "0%";
+}
+
+</script></a></li>
+ <li><a href="Revolution.html">Revolution</a></li>
+ <li><a href="Products.html">Products</a></li>
+ <li><a href="Advantages.html">Advantages</a></li>
+ <li><a href="Login.html">Log In / Sign up<li>
+</a></li>
+</ul>
+ </div>
+ <div id="introduction">  
+ <h3>Today's Offers<img src="of.gif" width="75" height="60"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small><small><small>Grab them! Offers are for a limited time <img src =time.gif width ="40" height ="40"></small></small></small></h3>
+    
+<img class="mySlides" src="mygro.jpg" width="990" height="400">
+<img class="mySlides" src="mygro2.jpg" width="990"height="400">
+<img class="mySlides" src="mygro3.jpg" width="990"height="400">
+<img class="mySlides" src="mygro4.jpg" width="990"height="400">
+<img class="mySlides" src="mygro5.jpg" width="990"height="400">
+<img class="mySlides" src="mygro6.jpg" width="990"height="400">
+<img class="mySlides" src="mygro7.jpg" width="990"height="400">
+<img class="mySlides" src="mygro8.jpg" width="990"height="400">
+<img class="mySlides" src="mygro9.jpg" width="990"height="400">
+<img class="mySlides" src="mygro10.jpg" width="990"
+height="400">
+
+<script style="align-content: center" type="text/javascript">
+	var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}</script>
+     <center><img src="Advantages.jpg" width="990"></center>
+     
+ <p></p>
+     <br>
+ </div>
+ <div id="leftsidebar" class="sidebar">
+ <h3>Challenges</h3>
+     <ul>
+    <li> Food and agricultural systems are affected by trends that could jeopardize their future sustainability.</li>
+    <li>A more sustainable future is attainable, but getting there will not be easy.</li>
+    <li>While moving towards sustainability, food prices might increase... </li><br>
+     </ul>
+     <p>So, We too have been helping the Government to move towards sustainability.</p>
+     <a href="index.html"><center><img src="sd.jfif" width="125" height="125"></center></a>
+     <br>
+     <a>It is your turn now! <a href="index.html">Click here</a> to donate your money and help the Government in attaining a sustainable future.</a>
+     
+ </div>
+ <div id="rightsidebar" class="sidebar">
+ <h3>First time here? Try our free sample !</h3>
+     <a href="signup.html"><center><img src="free_sample.gif" height="300"></center></a>
+ <p>We provide free samples to new customers.To know more about the sample click on the above image!</p>
+</div>
+ </div>
+  </div>
+    </body>
+    
+      </html>
